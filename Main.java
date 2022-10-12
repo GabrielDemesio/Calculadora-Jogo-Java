@@ -38,7 +38,7 @@ public class Main {
         if(numero_chutado == numero_aleatorio) {
             System.out.println("Parabéns você acertou! com " + jogada + " jogadas restantes.");
             break;
-        } else if(numero_chutado < numero_aleatorio){
+        }else if(numero_chutado < numero_aleatorio){
             System.out.println("O número chutado é menor que o número aleatório!");
         }else {
             System.out.println("O número chutado é maior que o número aleatório!");
